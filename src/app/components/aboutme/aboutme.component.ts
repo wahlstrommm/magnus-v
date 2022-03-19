@@ -11,7 +11,7 @@ export class AboutmeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  selfie:string='/assets/selfie.svg';
-  farg:string='/assets/farg.svg';
-  home  :string='/assets/homeLogo.svg';
+  selfie:string='assets/selfie.svg';
+  farg:string='assets/farg.svg';
+  home  :string='assets/homeLogo.svg';
 }

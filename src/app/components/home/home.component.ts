@@ -12,9 +12,9 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  logoName:string="/assets/logoName.svg"
-  logoNameBig:string="/assets/logoNameBig.svg"
-  linkedin: string = '/assets/linkedin.svg';
-  google: string = '/assets/google.svg';
-  github: string = '/assets/github.svg';
+  logoName:string="assets/logoName.svg"
+  logoNameBig:string="assets/logoNameBig.svg"
+  linkedin: string = 'assets/linkedin.svg';
+  google: string = 'assets/google.svg';
+  github: string = 'assets/github.svg';
 }

@@ -11,5 +11,5 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  logo:string="/assets/logo.svg"
+  logo:string="assets/logo.svg"
 }

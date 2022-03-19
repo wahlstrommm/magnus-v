@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  projIcon: string = '/assets/projIcon.svg';
-  github: string = '/assets/githubCircle.svg';
-  leftArrow:string = '/assets/leftArrow.svg';
-  rightArrow:string = '/assets/rightArrow.svg';
+  projIcon: string = 'assets/projIcon.svg';
+  github: string = 'assets/githubCircle.svg';
+  leftArrow:string = 'assets/leftArrow.svg';
+  rightArrow:string = 'assets/rightArrow.svg';
 
   constructor() { }
 
@@ -50,5 +50,5 @@ export class ProjectsComponent implements OnInit {
       this.currentText=this.listOfMyProjectsText[this.counter];
     }
   }
-  home  :string='/assets/homeLogo.svg';
+  home  :string='assets/homeLogo.svg';
 }
