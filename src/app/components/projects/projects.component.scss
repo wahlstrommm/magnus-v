@@ -1,0 +1,189 @@
+@media screen and (min-width:320px) {
+    .projektContainer{
+        position: relative;
+        top: 20px;
+        width: 80%;
+        height: 80vh;
+        background-color: #c4c4c466;
+        border: 1px solid white;
+        border-radius: 10%;
+    }
+    .imgForProj{
+        position: relative;
+        // background-color: red;
+        top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .textAboutProjContainer{
+        display: flex;
+        justify-content: center;
+        // background-color: blue;
+        height: 150px;
+        position: relative;
+        top: 60px;
+    }
+    .textAboutProj{
+        background-color: rgb(255, 255, 255);
+        width: 70%;
+        top: 5px;
+        position: relative;
+        height: 90%;
+        border-radius: 10px;
+    }
+    .infoAboutProj{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 10%;
+    }
+    .containerGithub{
+        // background-color: bisque;
+        position: relative;
+        height: 70px;
+        width: 100%;
+        top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .githubLogo{
+        position: relative;
+        left: 5px;
+        top: 10px;
+    }
+    .arrowContainer{
+        // background-color: aquamarine;
+        position: relative;
+        top: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .titleText{
+        font-family: 'Quicksand', sans-serif;
+        position: relative;
+        text-align: center;
+        left: 45px;
+        bottom: 40px;
+        height: 70px;
+        width: 150px;
+    }
+    .projectText{
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        width: 170px;
+        padding: 10px;
+    }
+}
+@media screen and (min-width:375px) {
+    .titleText{
+        font-family: 'Quicksand', sans-serif;
+        position: relative;
+        text-align: center;
+        left: 20px;
+        margin: 10px;
+        bottom: 40px;
+        height: 70px;
+        width: 190px;
+    }
+    .projectText{
+        position: relative;
+        padding: 10px;
+        width: 230px;
+
+    }
+    .textAboutProj{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:425px) {
+    .infoAboutProj{
+        position: relative;
+        border-radius: 10px;
+    }
+    .titleText{
+        position: relative;
+        left: 50px;
+    }
+}
+@media screen and (min-width:480px) {
+    .titleText{
+        position: relative;
+        left: 50px;
+        font-size: 1.2rem;
+        width: 200px;
+    }
+    .projectText{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width:600px) {
+    
+    .infoAboutProj{
+        position: relative;
+        border-radius: 10px;
+    }
+    .githubLogo{
+        position: relative;
+        left: 30px;
+    }
+    .titleText{
+        position: relative;
+        left: 90px;
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width:768px) {
+    
+    .titleText{
+        position: relative;
+        left: 10px;
+        font-size: 1.7rem;
+        width: auto;
+    }
+    .projIcon{
+        height: 8rem;
+    }
+}
+@media screen and (min-width:900px) {
+    .projectText{
+        font-size: 1.5rem;
+        width: auto;
+    }
+    .arrowLeft{
+        position: relative;
+        left: 60px;
+    }
+    .arrowRight{
+        position: relative;
+        right: 60px;
+    }
+}
+@media screen and (min-width:1024px) {
+    
+}
+@media screen and (min-width:1200px) {
+    
+}
+
+
+
+p{
+    color:rgb(0, 0, 0)
+}
+.main{
+    position: relative;
+    top: 20px;
+    height: 100vh;
+    background-image: url('/assets/backgroundMedium.png');   
+ background-position: right 1000px ;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.home{
+    height: 2rem;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+}

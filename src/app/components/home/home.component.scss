@@ -1,0 +1,285 @@
+@media screen and (max-width:320px) {
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .contactInfo{
+        position:absolute;
+        border-bottom: 3px solid white;
+        display: flex;
+        width: 260px;
+        top: 170px;
+        height: 60px;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .github{
+        position: relative;
+        top: 10px;
+        height: 2.2rem;
+    }
+    .google{
+        position: relative;
+        top: 14px;
+        height: 2rem;
+    }
+    .linkedin{
+        position: relative;
+        top: 5px;
+        height: 3rem;
+    }
+    .textContainer{
+        position: relative;
+        display: flex;
+        justify-content: center ;
+        top: 120px;
+        width: 240px;
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+    }
+    .linkContainer{
+        position:absolute;
+        bottom: 40px;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logoName{
+        width: 14rem;
+    }
+    }
+@media screen and (min-width:320px) {
+    
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.contactInfo{
+    position:absolute;
+    border-bottom: 3px solid white;
+    display: flex;
+    width: 260px;
+    top: 170px;
+    height: 60px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.github{
+    position: relative;
+    top: 10px;
+    height: 2.2rem;
+}
+.google{
+    position: relative;
+    top: 14px;
+    height: 2rem;
+}
+.linkedin{
+    position: relative;
+    top: 5px;
+    height: 3rem;
+}
+.textContainer{
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    top: 120px;
+    width: 240px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+.linkContainer{
+    position:absolute;
+    bottom: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.logoName{
+    width: 14rem;
+}
+}
+@media screen and (min-width:375px) {
+    .textContainer{
+        width: 290px;
+    }
+    .logoName{
+        width: 17rem;
+    }
+    .linkContainer{
+        width: 70%;
+    }
+    a{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width:425px) {
+    .textContainer{
+        width: 380px;
+    }
+    .logoName{
+        width: 21rem;
+    }
+    .linkContainer{
+        width: 60%;
+    }
+.contactInfo{
+    top: 180px;
+}
+}
+@media screen and (min-width:480px) {
+    .textContainer{
+        width: 430px;
+    }
+    .logoName{
+        width: 26rem;
+    }
+    .linkContainer{
+        width: 60%;
+        bottom: 30px;
+    }
+    .contactInfo{
+        top: 190px;
+    }
+}
+@media screen and (min-width:600px) {
+    .textContainer{
+        width: 530px;
+    }
+    .logoName{
+        width: 35rem;
+    }
+    .linkContainer{
+        width: 50%;
+        bottom: 20px;
+    }
+    a{
+        font-size: 1.5rem;
+    }
+    .contactInfo{
+        top: 190px;
+        width: 300px;
+    }
+    .github{
+
+        height: 2.3rem;
+    }
+    .google{
+
+        height: 2.1rem;
+    }
+    .linkedin{
+
+        height: 3.1rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .logoName{
+        width: 40rem;
+    }
+    .contactInfo{
+        top: 200px;
+        width: 300px;
+    }
+    .github{
+
+        height: 2.4rem;
+    }
+    .google{
+
+        height: 2.2rem;
+    }
+    .linkedin{
+
+        height: 3.2rem;
+    }
+
+}
+@media screen and (min-width:900px) {
+    .textContainer{
+        width: 630px;
+    }
+    .logoName{
+        width: 53rem;  
+        height: 13rem;
+      }
+    .linkContainer{
+        width: 50%;
+        bottom: 10px;
+    }
+    a{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .textContainer{
+        width: 930px;
+        height: 300px;
+    }
+    .logoName{
+        width: 63rem;  
+        height: 19rem;
+      }
+    .linkContainer{
+        width: 40%;
+        bottom: 30px;
+    }
+    a{
+        font-size: 2rem;
+    }
+    .contactInfo{
+        top: 300px;
+        width: 350px;
+    }
+    .github{
+
+        height: 2.5rem;
+    }
+    .google{
+
+        height: 2.3rem;
+    }
+    .linkedin{
+
+        height: 3.3rem;
+    }
+}
+@media screen and (min-width:1200px) {
+    a{
+        font-size: 2.1rem;
+    }
+    .contactInfo{
+        top: 300px;
+        width: 350px;
+    }
+    .github{
+
+        height: 2.8rem;
+    }
+    .google{
+
+        height: 2.6rem;
+    }
+    .linkedin{
+
+        height: 3.6rem;
+    }
+}
+
+
+body{background-color: black;
+height: 100vh;}
+
+
+a{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}

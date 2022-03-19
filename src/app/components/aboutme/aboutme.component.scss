@@ -1,0 +1,257 @@
+@media screen and (max-width:320px) {
+    .infoContainer{
+        width: 90%;
+        height: 80vh;
+        background-color: #c4c4c466;
+        position: relative;
+        top: 100px;
+        border-radius: 10px;
+        bottom: 10px;
+    }
+.photoContainer{
+    background-color: white;
+    width: 200px;
+    clip-path: circle();
+    position:absolute;
+    bottom: 280px;
+    left: 0px;
+    border:3px solid black;
+    background-position: center;
+
+}
+.selfie{
+    position: relative;
+    width: 200px;
+    right: 3px;
+}
+.textContainer{
+    // background-color: red;
+    text-align: center;
+    width: auto;
+    top: 130px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.textAboutMe{
+// background-color: blue;
+width: 80%;
+}
+.farg{
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+}
+@media screen and (min-width:321px) {
+    .infoContainer{
+        width: 90%;
+        height: 80vh;
+        background-color: #c4c4c466;
+        position: relative;
+        top: 100px;
+        border-radius: 10px;
+        bottom: 10px;
+    }
+.photoContainer{
+    background-color: white;
+    width: 200px;
+    clip-path: circle();
+    position:absolute;
+    bottom: 280px;
+    left: 0px;
+    border:3px solid black;
+    background-position: center;
+
+}
+.selfie{
+    position: relative;
+    width: 200px;
+    right: 3px;
+}
+.textContainer{
+    // background-color: red;
+    text-align: center;
+    width: auto;
+    top: 130px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.textAboutMe{
+// background-color: blue;
+width: 80%;
+}
+.farg{
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+}
+@media screen and (min-width:375px) {
+    .infoContainer{
+        width: 90%;
+        height: 80vh;
+        background-color: #c4c4c466;
+        position: relative;
+        top: 100px;
+        border-radius: 10px;
+        bottom: 10px;
+    }
+.photoContainer{
+    background-color: white;
+    width: 200px;
+    clip-path: circle();
+    position:absolute;
+    bottom: 280px;
+    left: 0px;
+    border:3px solid black;
+    background-position: center;
+
+}
+.selfie{
+    position: relative;
+    width: 200px;
+    right: 3px;
+}
+.textContainer{
+    // background-color: red;
+    text-align: center;
+    width: auto;
+    top: 130px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.textAboutMe{
+// background-color: blue;
+width: 80%;
+}
+.farg{
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+p{
+    font-size: 1.2rem;
+}
+}
+@media screen and (min-width:425px) {
+
+}
+@media screen and (min-width:480px) {
+    p{
+        font-size: 1.5rem;
+    }
+    .farg{
+        position: relative;
+        top: 120px;
+    }
+    .textContainer{
+        // background-color: red;
+        text-align: center;
+        width: auto;
+        top: 130px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:600px) {
+    .infoContainer{
+        width: 90%;
+        height: 80vh;
+        background-color: #c4c4c466;
+        position: relative;
+        top: 90px;
+        border-radius: 10px;
+        bottom: 10px;
+    }
+    .photoContainer{
+        background-color: white;
+        width: 250px;
+        clip-path: circle();
+        position:absolute;
+        bottom: 220px;
+        left: 0px;
+        border:3px solid black;
+        background-position: center;
+    
+    }
+    .selfie{
+        position: relative;
+        width: 250px;
+        right: 3px;
+    }
+    .textContainer{
+        // background-color: red;
+        text-align: center;
+        width: auto;
+        top: 130px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .textAboutMe{
+        position: relative;
+        top: 40px;
+    }
+    .farg{
+        top: 170px;
+    }
+
+}
+@media screen and (min-width:768px) {
+    
+}
+@media screen and (min-width:900px) {
+    
+}
+@media screen and (min-width:1024px) {
+    
+}
+@media screen and (min-width:1200px) {
+    .farg{
+        top: 170px;
+    }
+    .textContainer{
+        top: 160px;
+    }
+}
+@media screen and (min-width:1400px) {
+    .photoContainer{
+        background-color: white;
+        width: 250px;
+        clip-path: circle();
+        position:absolute;
+        bottom: 320px;
+        left: 0px;
+        border:3px solid black;
+        background-position: center;
+    
+    }
+    .farg{
+        top:150px;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-image: url('/assets/backgroundMedium.png');    
+    background-position: right 30px ;
+    height: 100vh;
+
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+.home{
+    height: 2rem;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+}

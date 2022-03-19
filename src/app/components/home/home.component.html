@@ -1,0 +1,41 @@
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <app-header></app-header>
+
+    <main class="main">
+        <article class="container">
+            <article class="textContainer">
+                <img [src]="logoName" class="logoName" alt="">
+                <article class="linkContainer">
+
+                    <article class="linkLeft">
+                     <a routerLink="projects">Projekt</a>
+                    </article>
+
+                    <article class="linkRight">
+                    <a routerLink="aboutme">Om mig</a>  
+                    </article>
+
+                </article>
+                <article class="contactInfo">
+                   
+                        <a href="mailto:wahlstrommm@gmail.com">
+                            <img [src]="google"alt="" class="google">
+                        </a>
+                        <a href="https://github.com/wahlstrommm">
+                            <img [src]="github" class="github" alt="">
+                        </a>
+                    
+                    
+                        <a href="https://www.linkedin.com/in/magnus-vahlstr%C3%B6m-836629220">
+                            <img [src]="linkedin" alt="" class="linkedin">
+                        </a>
+                    
+                </article>
+            </article>
+        </article>
+     </main>
+</body>

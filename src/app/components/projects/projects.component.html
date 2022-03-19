@@ -1,0 +1,43 @@
+<body>
+    <main>
+    <section class="main">
+        <article class="homeButtonContainer">
+            <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                <img [src]="home" alt="" class="home">
+            </a>
+    </article>
+    <article class="projektContainer">
+        <article class="imgForProj">
+            <img [src]="projIcon" alt="" class="projIcon">
+        </article>
+        <article>
+
+        </article>
+        <article class="textAboutProjContainer">
+            <div class="textAboutProj">
+                <p class="projectText">{{currentText}}</p>
+            </div>
+        </article>
+        <article class="containerGithub">
+            <div class="infoAboutProj">
+                <a href="{{currentLink}}" title="länk till {{currentTitle}}">
+                    <img [src]="github" alt="" class="githubLogo">
+                </a>
+                <p class="titleText">{{currentTitle}}</p>
+            </div>
+        </article>
+        <article class="arrowContainer">
+            <div class="arrowLeft">
+                <img [src]="leftArrow" alt="" (click)="changeProjectInfoLeft()">
+            </div>
+            <div class="arrowRight">
+                <img [src]="rightArrow" alt="" (click)="changeProjectInfoRight()">
+            </div>
+        </article>
+    </article>
+    </section>
+    </main>
+
+</body>
+
+

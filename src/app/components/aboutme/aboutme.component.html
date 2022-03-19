@@ -1,0 +1,30 @@
+<body>
+    <main class="main">
+        <article class="homeButtonContainer">
+                <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                    <img [src]="home" alt="" class="home">
+                </a>
+        </article>
+        <article class="infoContainer">
+            <article>
+                <img [src]="farg" alt="" class="farg">
+            </article>
+            <article class="photoContainer">
+                <div class="imgContainer">
+                    <img [src]="selfie" alt="" class="selfie">
+                </div>
+            </article>
+            <article class="textContainer">
+                <div class="textAboutMe">
+                    <p>
+                        En 26 årig Uppsalabo som äntligen vet vad han vill göra när han blir
+                        stor! Pluggar just nu Front End Developer programmet på
+                        <a href="https://medieinstitutet.se/utbildningar/front-end-developer/">Medieinstitutet</a>. För att veta mer om mig och vad jag har gjort kan ni ladda ner mitt
+                        CV <a href="assets/Magnus-Vahlstrom-cv.pdf" download="assets/Magnus-Vahlstrom-cv.pdf">här!</a>.
+                    </p>
+                </div>
+            </article>
+        </article>
+    </main>
+</body>
+<app-skills></app-skills>

@@ -1,0 +1,51 @@
+@media screen and (max-width:320px) {
+    
+}
+@media screen and (min-width:375px) {
+    .logo{
+        height: 2.5rem;
+    }
+}
+@media screen and (min-width:425px) {
+
+}
+@media screen and (min-width:480px) {
+
+}
+@media screen and (min-width:600px) {
+    .headercontainer{
+        height: 7rem;
+    }
+    .logoContainer{
+        height: 7rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .headercontainer{
+        height: 9rem;
+        width: 100%;
+    }
+    .logoContainer{
+        height: 9rem;
+        position: relative;
+    }
+}
+@media screen and (min-width:900px) {
+    
+}
+@media screen and (min-width:1024px) {
+    
+}
+@media screen and (min-width:1200px) {
+    
+}
+
+.logoContainer{
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+.headercontainer{
+    width: 100%;
+    height: 3rem;
+}
