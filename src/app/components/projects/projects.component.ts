@@ -13,9 +13,9 @@ export class ProjectsComponent implements OnInit {
 
   constructor() { }
 
-  listOfMyProjectsLinks:string[]=["https://github.com/wahlstrommm/angular_webshop",'https://wahlstrommm.github.io/angular-services-zoo/','https://gamershabandari.github.io/stader_och_lander/','https://assarbertil.github.io/spelprogrammering/']
-  listOfMyProjectsTitle:string[]=['Angular webbshop','Angular in & output. Zoo tema','Grupparbete . Vanilla js. API','Grupparbete.Vanilla js.Jeff Bezos']
-  listOfMyProjectsText:string[]=['Angular! Webbshop! En videobutik! Denna var den första stora "riktiga" uppgiften jag lämnade in!','En zoo inspirerande uppgift som syftet var lära mig in och output','Grupparbete! Fokuset här låg att lära oss använda oss av API:er. Med Vanilla JS','Grupparbete! Vanilla JS.Jeff Bezos spel. "Ett mästerverk! 10/10 - Gamereactor"']
+  listOfMyProjectsLinks:string[]=["https://github.com/wahlstrommm/angular_webshop",'https://wahlstrommm.github.io/angular-services-zoo/','https://gamershabandari.github.io/stader_och_lander/','https://assarbertil.github.io/spelprogrammering/','https://wahlstrommm.github.io/zoo-react/','https://wahlstrommm.github.io/react-axios/']
+  listOfMyProjectsTitle:string[]=['Angular webbshop','Angular in & output. Zoo tema','Grupparbete . Vanilla js. API','Grupparbete.Vanilla js.Jeff Bezos','React zoo!','React Axios!']
+  listOfMyProjectsText:string[]=['Angular! Webbshop! En videobutik! Denna var den första stora "riktiga" uppgiften jag lämnade in!','En zoo inspirerande uppgift som syftet var lära mig in och output','Grupparbete! Fokuset här låg att lära oss använda oss av API:er. Med Vanilla JS','Grupparbete! Vanilla JS.Jeff Bezos spel. "Ett mästerverk! 10/10 - Gamereactor"','React! Gjorde ett zoo. Där man kan mata djuren!','React! Axios uppgift. Videobutik inspo']
   counter:number=0;
 
   ngOnInit(): void {
