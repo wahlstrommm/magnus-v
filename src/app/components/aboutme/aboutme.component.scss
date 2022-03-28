@@ -8,40 +8,46 @@
         border-radius: 10px;
         bottom: 10px;
     }
-.photoContainer{
-    background-color: white;
-    width: 200px;
-    clip-path: circle();
-    position:absolute;
-    bottom: 480px;
-    left: 0px;
-    border:3px solid black;
-    background-position: center;
+    .extraTextAboutMe{
+        display: none;
+    }
+    .styleContainerImg{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .extraTextContainerAboutMe{
+        display: none;
+    }
 
-}
-.selfie{
-    position: relative;
-    width: 200px;
-    right: 3px;
-}
-.textContainer{
-    // background-color: red;
-    text-align: center;
-    width: auto;
-    top: 130px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
+    .imgContainer{
+        background-color: white;
+        width: 200px;
+        clip-path: circle();
+        position: relative;
+        bottom: 95px;
+        height: 200px;
+        border: 0px solid black;
+        background-position: center;
+    }
+    .selfie{
+        position: relative;
+        width: 160px;
+        right: -18px;
+    }
+    .textContainer{
+        text-align: center;
+        width: auto;
+        top: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
 .textAboutMe{
-// background-color: blue;
 width: 80%;
 }
-.farg{
-    position: relative;
-    top: 120px;
-    left: 30px;
-}
+
 }
 @media screen and (min-width:321px) {
     .infoContainer{
@@ -53,40 +59,46 @@ width: 80%;
         border-radius: 10px;
         bottom: 10px;
     }
-.photoContainer{
-    background-color: white;
-    width: 200px;
-    clip-path: circle();
-    position:absolute;
-    bottom: 480px;
-    left: 0px;
-    border:3px solid black;
-    background-position: center;
-
-}
-.selfie{
-    position: relative;
-    width: 200px;
-    right: 3px;
-}
+    .styleContainerImg{
+        // background-color: red;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .extraTextAboutMe{
+        display: none;
+    }
+    .extraTextContainerAboutMe{
+        display: none;
+    }
+    .imgContainer{
+        background-color: white;
+        width: 200px;
+        clip-path: circle();
+        position: relative;
+        bottom: 95px;
+        height: 200px;
+        border: 0px solid black;
+        background-position: center;
+    }
+    .selfie{
+        position: relative;
+        width: 160px;
+        right: -18px;
+    }
 .textContainer{
-    // background-color: red;
     text-align: center;
     width: auto;
-    top: 130px;
+    top: 10px;
     position: relative;
     display: flex;
     justify-content: center;
 }
 .textAboutMe{
-// background-color: blue;
 width: 80%;
 }
-.farg{
-    position: relative;
-    top: 120px;
-    left: 30px;
-}
+
 }
 @media screen and (min-width:375px) {
     .infoContainer{
@@ -98,40 +110,43 @@ width: 80%;
         border-radius: 10px;
         bottom: 10px;
     }
-.photoContainer{
-    background-color: white;
-    width: 200px;
-    clip-path: circle();
-    position:absolute;
-    bottom: 480px;
-    left: 0px;
-    border:3px solid black;
-    background-position: center;
 
+    .imgContainer{
+        background-color: white;
+        width: 200px;
+        clip-path: circle();
+        position: relative;
+        bottom: 95px;
+        height: 200px;
+        border: 0px solid black;
+        background-position: center;
+    }
+    .selfie{
+        position: relative;
+        width: 160px;
+        right: -18px;
+    }
+
+
+
+.extraTextContainerAboutMe{
+    display: none;
 }
-.selfie{
-    position: relative;
-    width: 200px;
-    right: 3px;
-}
+
 .textContainer{
-    // background-color: red;
     text-align: center;
     width: auto;
-    top: 130px;
+    top: 10px;
     position: relative;
     display: flex;
     justify-content: center;
 }
+
 .textAboutMe{
-// background-color: blue;
-width: 80%;
+    width: 90%;
+    top: 100px;
 }
-.farg{
-    position: relative;
-    top: 120px;
-    left: 30px;
-}
+
 p{
     font-size: 1.2rem;
 }
@@ -141,21 +156,27 @@ p{
 }
 @media screen and (min-width:480px) {
     p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
-    .farg{
-        position: relative;
-        top: 120px;
+    .styleContainerImg{
+        // background-color: red;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
     }
     .textContainer{
-        // background-color: red;
         text-align: center;
         width: auto;
-        top: 130px;
+        top: 18px;
         position: relative;
         display: flex;
         justify-content: center;
     }
+    .textAboutMe{
+        width: 90%;
+        top: 100px;
+        }
 }
 @media screen and (min-width:600px) {
     .infoContainer{
@@ -167,37 +188,43 @@ p{
         border-radius: 10px;
         bottom: 10px;
     }
-    .photoContainer{
+    .styleContainerImg{
+        // background-color: red;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .imgContainer{
         background-color: white;
-        width: 250px;
+        width: 200px;
         clip-path: circle();
-        position:absolute;
-        bottom: 510px;
-        left: 0px;
-        border:3px solid black;
+        position: relative;
+        bottom: 85px;
+        height: 200px;
+        border: 0px solid black;
         background-position: center;
-    
     }
     .selfie{
         position: relative;
-        width: 250px;
-        right: 3px;
+        width: 160px;
+        right: -18px;
     }
     .textContainer{
-        // background-color: red;
         text-align: center;
         width: auto;
-        top: 130px;
+        top: 30px;
         position: relative;
         display: flex;
         justify-content: center;
     }
     .textAboutMe{
         position: relative;
-        top: 40px;
+        top: 15px;
     }
-    .farg{
-        top: 170px;
+
+    p{
+        font-size: 1.5rem;
     }
 
 }
@@ -211,31 +238,72 @@ p{
     
 }
 @media screen and (min-width:1200px) {
-    .farg{
-        top: 170px;
-    }
+
     .textContainer{
         top: 160px;
     }
+
+    .imgContainer {
+        background-color: white;
+        width: 222px;
+        clip-path: circle();
+        position: relative;
+        bottom: 85px;
+        height: 210px;
+        border: 0px solid black;
+        background-position: center;
+    }
+    .styleContainerImg{
+        // background-color: red;
+        height: 154px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .selfie{
+        position: relative;
+        width: 160px;
+        right: -30px;
+    }
+    .extraTextAboutMe {
+        display: inline;
+        position: relative;
+        right: 287px;
+        bottom: 120px;
+    }
+    .textContainer{
+        top: 0px;
+        left: 80px;
+    }
+    .textAboutMe{
+        position: relative;
+        top: -12px;
+        left: 205px;
+        width: 173%;
+    }
+    .textAboutMeP{
+        position: relative;
+        width: 818px;
+        right: 50px;
+        bottom: 136px;
+    }
+
+    .extraTextContainerAboutMe{
+        display: block;
+    }
 }
 @media screen and (min-width:1400px) {
-    .photoContainer{
-        background-color: white;
-        width: 250px;
-        clip-path: circle();
-        position:absolute;
-        bottom: 500px;
-        left: 0px;
-        border:3px solid black;
-        background-position: center;
-    
+    .textAboutMeP{
+        position: relative;
+        width: 83%;
+        right: 50px;
+        bottom: 136px;
     }
-    .farg{
-        top:180px;
-    }
+
     p{
         font-size: 1.8rem;
     }
+
 }
 .main{
     display: flex;
